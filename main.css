@@ -1,0 +1,124 @@
+     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(40, 46, 52);
+            color: rgb(160, 223, 66);
+            display: flex;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+
+        h1 {
+            font-size: 50px;
+            padding-top: 15px;
+
+        }
+
+        #city-input {
+            padding-block: 12px;
+            padding-inline: 55px;
+            background-color: transparent;
+            border: 3px solid rgb(160, 223, 66);
+            margin-top: 20px;
+        }
+
+        #city-input::placeholder {
+            font-size: 17px;
+            color: rgb(160, 223, 66);
+        }
+
+        #city-input:focus {
+            color: white;
+            font-size: 18px;
+        }
+
+        .btn {
+            padding-block: 10px;
+            padding-inline: 30px;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            background-color: rgb(160, 223, 66);
+            margin-top: 20px;
+            border: 1px solid rgb(40, 46, 52);
+        }
+
+        #header {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .container {
+            background-color: rgb(40, 46, 52);
+            width: 420px;
+            height: 600px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+
+        .animate__animated.animate__bounce {
+            --animate-duration: 2s;
+        }
+
+        .data {
+            padding-block: 20px;
+            font-size: 20px;
+        }
+
+        #city-name {
+            font-size: 20px;
+            background-color: white;
+            color: rgb(40, 46, 52);
+            margin-inline: 40px;
+            padding: 12px;
+        }
+
+        #city-tym {
+            font-size: 20px;
+            background-color: white;
+            color: rgb(40, 46, 52);
+            margin-inline: 40px;
+            padding: 12px;
+            margin-top: 15px;
+        }
+
+        #city-temp {
+            font-size: 20px;
+            background-color: white;
+            color: rgb(40, 46, 52);
+            margin-inline: 40px;
+            padding: 12px;
+            margin-top: 15px;
+        }
+
+        #img {
+            height: 150px;
+            width: 180px;
+        }
+
+        @media only screen and (max-width: 480px) {
+            #header {
+                font-size: 18px;
+                height: 600px;
+                width: 400px;
+            }
+        }
+
+        @media only screen and (min-width: 300px) {
+            #header {
+                font-size: 18px;
+                height: 600px;
+                width: 400px;
+            }
+        }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather checker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <h1 class="animate__animated animate__bounce">Weather App</h1>
+            <img src="./cloud.png" alt="NotFound" id="img">
+            <div><input type="text" id="city-input" placeholder="Enter Your City Name"></div>
+            <button id="Search-btn" class="btn">Search</button>
+            <button id="Reset-btn" class="btn" style="background-color: red; color: white;">Reset</button>
+
+            <div class="data">
+                <h5 id="city-name">Name, Region - Country</h3>
+                    <h5 id="city-tym">Local Time</h5>
+                    <h5 id="city-temp">Temprature</p>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
